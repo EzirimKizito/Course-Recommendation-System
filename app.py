@@ -14,7 +14,11 @@ course_encoder = label_encoders['target']  # Adjust this if the key is different
 
 # Streamlit user interface
 st.title('Course Recommendation System')
-st.write('Enter your preferences to get recommended courses.')
+
+st.markdown("#### PROJECT WORK BY: FUNSHO VICTOR EVOPA")
+
+
+st.write('Answer these questions to get recommended courses.')
 # User inputs for each feature
 input_data = {}
 input_data['Class'] = st.selectbox('Class', options=['technical', 'science', 'Arts', 'commercial'])
@@ -90,3 +94,8 @@ if st.button('Recommend Courses'):
         'Meets Requirement': meets_requirement
     })
     st.table(results_df)
+
+
+                
+if __name__ == "__main__":
+    main()
