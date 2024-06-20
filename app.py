@@ -3,10 +3,10 @@ import pandas as pd
 import pickle
 
 # Load the model and label encoders
-with open('/content/random_forest_model_course_recommendation.pkl', 'rb') as f:
+with open('random_forest_model_course_recommendation.pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('/content/label_encoders_course_recommendataion.pkl', 'rb') as f:
+with open('label_encoders_course_recommendataion.pkl', 'rb') as f:
     label_encoders = pickle.load(f)
 
 # Assuming the label encoder for the target (Preferred Course) is also stored
