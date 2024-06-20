@@ -6,7 +6,7 @@ import pickle
 with open('random_forest_model_course_recommendation.pkl', 'rb') as f:
     model = pickle.load(f)
 
-with open('label_encoders_course_recommendataion.pkl', 'rb') as f:
+with open('label_encoders.pkl', 'rb') as f:
     label_encoders = pickle.load(f)
 
 # Assuming the label encoder for the target (Preferred Course) is also stored
