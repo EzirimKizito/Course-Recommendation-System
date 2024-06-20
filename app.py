@@ -15,7 +15,7 @@ course_encoder = label_encoders['target']  # Adjust this if the key is different
 # Streamlit user interface
 st.title('Course Recommendation System')
 
-st.markdown("#### PROJECT WORK BY: FUNSHO VICTOR EVOPA")
+st.markdown("#### PROJECT WORK BY: Rashsan")
 
 
 st.write('Answer these questions to get recommended courses.')
