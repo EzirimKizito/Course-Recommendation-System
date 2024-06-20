@@ -14,7 +14,10 @@ course_encoder = label_encoders['target']  # Adjust this if the key is different
 
 # Streamlit user interface
 def main():
+    
     st.title('Course Recommendation System')
+
+
     
     st.markdown("#### PROJECT WORK BY: Rashsan")
     
@@ -60,10 +63,10 @@ def main():
     
         department_cutoffs = {
         'Computer Science': 220,
-        'Information and Communication Science': 210,
+        'Information and Communication Science': 190,
         'Telecommunication Science': 220,
-        'Mass Communication': 200,
-        'Library and Information Science': 200
+        'Mass Communication': 240,
+        'Library and Information Science': 190
         }
     
             # Predict the probabilities
